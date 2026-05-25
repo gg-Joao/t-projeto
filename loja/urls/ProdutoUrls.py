@@ -1,4 +1,10 @@
 from django.urls import path
+from ..views.ProdutoView import produto_view
+
+urlpatterns = [
+    path('', produto_view, name='produto_list'),
+]
+from django.urls import path
 from ..views import produto_view
 
 urlpatterns = [

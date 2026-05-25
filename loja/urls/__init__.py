@@ -1,3 +1,4 @@
+# package for loja urls
 from .HomeUrls import urlpatterns as home_urls
 from .ProdutoUrls import urlpatterns as produto_urls
 
